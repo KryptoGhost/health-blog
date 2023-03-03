@@ -28,6 +28,7 @@ ul {
 
 a:link, :visited {
     text-decoration: none;
+    color: white;
 }
 
 section {
