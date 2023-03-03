@@ -6,8 +6,8 @@
 body {
     width: 100%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
-    color:white;
+    /*background-color: black;
+    color:white;*/
 }
 
 nav {
@@ -36,7 +36,7 @@ ul :hover {
 
 a:link, :visited, :active {
     text-decoration: none;
-    color: white;
+    color: black
 }
 
 section {
@@ -81,6 +81,9 @@ header h3 {
 
 .info {
     text-align: center;
+    background-color: rgb(44, 42, 42);
+    color: white;
+    padding: 20px;
 }
 .info p a:link, :visited {
     color: blue;
