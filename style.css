@@ -50,11 +50,16 @@ header h3 {
     }
     section {
         width: 100%;
+        display: unset;
+    }
+    nav {
+        width: 100%;
     }
     main {
         width: 100%;
     }
     img {
+        padding-top: 0;
         width: 80%;
     }
 }
