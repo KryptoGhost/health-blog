@@ -25,6 +25,10 @@ section {
     justify-content: space-between;
 }
 
+.img {
+    padding: 0;
+}
+
 main {
     width:70%;
     margin: auto;
@@ -38,6 +42,7 @@ main div {
 header {
     text-align: center;
     background-color: greenyellow;
+    width: 100%;
 }
 header h3 {
     color:blue;
@@ -57,9 +62,10 @@ header h3 {
     }
     main {
         width: 100%;
+        padding: 10px;
     }
     img {
-        padding-top: 0;
-        width: 80%;
+        padding:0 10px;
+        width: 90%;
     }
 }
