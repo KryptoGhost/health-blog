@@ -26,7 +26,11 @@ ul {
     list-style-type: none;
 }
 
-a:link, :visited {
+ul :hover {
+    font-size: 1.25rem;
+}
+
+a:link, :visited, :active {
     text-decoration: none;
     color: white;
 }
@@ -45,6 +49,10 @@ section {
 }
 .img img {
     width: 70%;
+}
+
+.img :hover {
+    width: 75%;
 }
 
 main {
@@ -69,6 +77,9 @@ header h3 {
 
 .info {
     text-align: center;
+}
+.info p a:link, :visited {
+    color: blue;
 }
 
 @media screen and (max-width: 500px){
